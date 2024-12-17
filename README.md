@@ -16,7 +16,6 @@ This is a simple Gym Tracker project built with HTML, CSS, and JavaScript. It al
 
 
 ## Installation
-
-1. Clone the repository: 
-
-git clone https://github.com/gagansingh26/GymTracker.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gagansingh26/GymTracker.git
