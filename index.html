@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gym Tracker</h1>
+    
+    <!-- Add Gym Visit Section -->
+    <div class="section">
+      <h2>Add Gym Visit</h2>
+      <input type="date" id="visit-date" placeholder="Date of Visit">
+      <input type="number" id="time-spent" placeholder="Time Spent (in minutes)" min="1">
+      <button id="add-visit">Add Visit</button>
+    </div>
+
+    <!-- Add Exercise Section -->
+    <div class="section">
+      <h2>Add Exercise</h2>
+      <input type="text" id="exercise-name" placeholder="Exercise Name">
+      <input type="number" id="exercise-reps" placeholder="Reps Done">
+      <button id="add-exercise">Add Exercise</button>
+    </div>
+
+    <!-- Display Gym Visits and Exercises -->
+    <div class="section">
+      <h2>Gym Visits</h2>
+      <ul id="visit-list">
+        <!-- Gym visits will appear here -->
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Exercises</h2>
+      <ul id="exercise-list">
+        <!-- Exercises will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
