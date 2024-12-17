@@ -1,6 +1,6 @@
-# Gym Tracker
+# Daily Gym Tracker
 
-This is a simple Gym Tracker project built with HTML, CSS, and JavaScript. It allows users to track their gym visits and exercises. Additionally, it helps track the time spent at the gym on a particular day.
+This is a simple Daily Gym Tracker project built with HTML, CSS, and JavaScript. It allows users to track their gym visits and exercises. Additionally, it helps track the time spent at the gym on a particular day.
 
 ## Features
 
